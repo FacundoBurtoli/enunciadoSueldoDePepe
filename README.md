@@ -39,18 +39,17 @@ Al igual que el Bono por resultados, Pepe posee un bono por presentismo que pued
 
 <br>
 
-## Batería de tests 
+## Casos de prueba 
 
-Se espera que al menos estén implementados los siguientes tests, pueden agregar más si quisieran.
 
-1. Hacer un test con pepe como cadete, con bono resultado de monto fijo, y bono presentismo normal. Simular que faltó 3 días.
+1. Si pepe es cadete, tiene el bono resultado de monto fijo, y bono presentismo normal. Simular que faltó 3 días.
 Debería tener $20800 de sueldo.
 
-1. Hacer un test con pepe como gerente, con el bono resultado por porcentaje, y bono de presentismo nulo. El sueldo debe dar $16500.
+1. Si pepe es gerente, tiene el bono resultado por porcentaje, y bono de presentismo nulo. El sueldo debe dar $16500.
 
-1. Realizar un test con pepe cadete con bono de resultados por porcentaje, bono por presentismo normal, nunca faltó. Debería tener $24000 de sueldo.
+1. Si pepe es cadete,  tiene bono de resultados por porcentaje, bono por presentismo normal, nunca faltó. Debería tener $24000 de sueldo.
 
-1. Realizar un test con pepe cadete con bono de resultados por porcentaje, bono por presentismo normal, falto 1 día. Debería tener $23000 de sueldo.
+1. Si pepe es cadete, tiene bono de resultados por porcentaje, bono por presentismo normal, falto 1 día. Debería tener $23000 de sueldo.
 
 
 # Bonus
@@ -81,7 +80,7 @@ A su vez, su neto es un 30% superior a lo que indica su categoría. P.ej. si Sof
 	Para el bono por presentismo, usar las mismas opciones que para Pepe. Se sabe que Ernesto no falta nunca.
 	
 	
-1. Armar un test con estas características
+1. Caso de prueba:
 	- La categoría base de _medio tiempo_ es _cadete_.
 	- Pepe tiene categoría medio tiempo (o sea, es cadete y trabaja medio tiempo), tiene bono por resultados de porcentaje, y bono por presentismo demagógico. Hacer que falte una vez.
 	- Roque tiene bono por resultados monto fijo. 
